@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+body {
+    background-color: rgb(3, 3, 3);
+    color: rgb(246, 246, 246);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+
+
+
+button {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+
+#answers button {
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: 500px;
+
+}
+
+.container {
+    padding: 20px;
+
+}
+
+.center {
+    font-size: 100px;
+    text-align: center;
+
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.gameButtons {
+    width: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+
+
+#hs-btn {
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 500px;
+}
+
+#save-btn {
+    background-color: green;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 600px;
+}
+
+#start-btn {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
