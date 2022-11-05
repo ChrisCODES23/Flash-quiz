@@ -11,23 +11,25 @@
     <div id="timer">
         <h5>Time left</h5>
         <h6 id="time"> </h6>
-        <h3> Score: </h3>
+        <h3 id="scores"> Score: </h3>
     </div>
     <h1 class="center ">Flash Quiz</h1>
+
     <div class="container">
+        <div id="question" class="hidden"> </div>
         <!-- Questions -->
-        <div id="answers">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            <button class="btn">Answer 4</button>
+        <div id="answers" class="hidden">
+            <button class="answer-btn ">Answer 1 </button>
+            <button class="answer-btn ">Answer 2</button>
+            <button class="answer-btn ">Answer 3</button>
+            <button class="answer-btn ">Answer 4</button>
         </div>
-        <div class="gameButtons">
+        <div class="gameButtons ">
             <!-- Game Buttons -->
-            <button id="hs-btn"> View Highscores </button>
-            <button id="save-btn"> Save </button>
+            <button id="hs-btn" class="hidden"> View Highscores </button>
+            <button id="save-btn" class="hidden"> Save </button>
             <button id="start-btn"> Start Game</button>
-            <button id="nxt-button"> Next</button>
+            <button id="nxt-button" class="hidden"> Next</button>
         </div>
 
 
@@ -35,9 +37,9 @@
         <div class="endGame">
         </div>
         <!-- Highscores here -->
-        <ul>
+        <ul id="highScores"> </ul>
 
-        </ul>
+
     </div>
     <script type="text/javascript" src="script.js"> </script>
 </body>
